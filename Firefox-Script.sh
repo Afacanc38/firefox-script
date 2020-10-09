@@ -4,7 +4,7 @@ wget -O firefox.tar.bz2 "https://download.mozilla.org/?product=firefox-latest-ss
 ##Sıkıştırılmış Dosyayı Çıkaralım/Extract The Downloaded File
 sudo tar xjf firefox.tar.bz2
 ##Çıkan Dosyayı /opt Dizinine Taşıyalım/Move The Extracted File To The opt Folder
-sudo mv firefox /opt
+sudo mv -f firefox /opt
 ##Başlatıcı Yolu Eğer Oluşmamışsa Oluşturalım/Create The .desktop Files Folder If It Didn't Created Yet
 mkdir -p ~/.local/share/applications/
 ##Başlatıcıyı Oluşturalım/Create The Launcher
